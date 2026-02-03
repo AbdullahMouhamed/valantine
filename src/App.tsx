@@ -57,7 +57,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen w-screen relative overflow-hidden flex items-center justify-center bg-linear-to-br from-pink-400 via-red-400 to-pink-600">
+    <div className="h-screen w-screen relative overflow-hidden flex items-center justify-center">
       {/* Floating hearts */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {floatingHearts.map((heart, i) => (
