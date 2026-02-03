@@ -82,7 +82,7 @@ function App() {
             left: noPos.left,
             transform: `translate(-50%, -50%) scale(${noButtonSize})`,
           }}
-          className="fixed z-9999 px-12 py-5 rounded-full bg-gray-700 text-2xl font-bold transition-all"
+          className="fixed z-9999 px-12 py-5 cursor-pointer rounded-full bg-gray-700 text-2xl font-bold transition-all"
         >
           NO 😅
         </button>
@@ -104,7 +104,7 @@ function App() {
             <button
               onClick={() => setYesClicked(true)}
               style={{ transform: `scale(${yesButtonSize})` }}
-              className="px-12 py-5 rounded-full bg-pink-500 text-2xl font-bold transition-all"
+              className="px-12 py-5 cursor-pointer rounded-full bg-pink-500 text-2xl font-bold transition-all"
             >
               YES 💘
             </button>
@@ -124,6 +124,11 @@ function App() {
           </div>
         </div>
       )}
+
+      <div className="absolute flex gap-2 items-center start-4 bottom-4 text-white text-sm w-full text-center">
+        Created by
+        <a target="_blank" href="https://abdullah-portfolio-app.netlify.app/" className="text-white px-2 hover:underline hover:text-pink-500 hover:bg-white ">Abdullah Moahmed</a>
+      </div>
     </div>
   );
 }
