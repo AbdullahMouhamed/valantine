@@ -127,7 +127,7 @@ function App() {
 
       <div className="absolute flex gap-2 items-center start-4 bottom-4 text-white text-sm w-full text-center">
         Created by
-        <a target="_blank" href="https://abdullah-portfolio-app.netlify.app/" className="text-white px-2 hover:underline hover:text-pink-500 hover:bg-white ">Abdullah Moahmed</a>
+        <a target="_blank" href="https://abdullah-portfolio-app.netlify.app/" className="text-white px-3 hover:underline hover:text-pink-500 hover:bg-white ">Abdullah Moahmed</a>
       </div>
     </div>
   );
